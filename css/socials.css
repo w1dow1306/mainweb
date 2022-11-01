@@ -1,0 +1,6 @@
+#a1{
+  border-right: none;
+  border-bottom:2px solid rgb(216, 238, 233) ;
+  color: rgb(181 181 210);
+  transition: all 1s ease-in-out;
+}

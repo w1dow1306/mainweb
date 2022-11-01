@@ -1,0 +1,58 @@
+@media screen and (max-width: 815px){
+/*navigation section*/
+    
+body{
+        overflow-x: hidden
+}
+.nav-links{
+    position: absolute;
+    right: 0px;
+    height: 92vh;
+    top:8vh;
+    background-color: #303030;
+    flex-direction: column;
+    align-items: center;
+    width: 45%;
+    transform: translateX(100%);
+    transition: transform .5s ease-in;
+    z-index: 4;
+}
+.tog3{
+    opacity: 0;
+}
+.tog2{
+    width: 3px;
+}
+
+.nav-links li{
+    opacity: 0;
+}
+.burger{
+    display: block;
+}
+
+.nav-active{
+    transform: translateX(0%);
+    
+}
+.nav-links a:hover{
+    /* border: none; */
+    border-bottom: 1.8px solid white;
+    border-right: 1.8px solid white;
+    
+}
+.nav-links.light{
+  background-color: #d6dae0;
+}
+
+@keyframes navlinkFade{
+    from{
+        opacity: 0;
+        transform: translateX(50px);
+    }
+    to{
+        opacity: 1;
+        transform: translateX(0px);
+    }
+}
+}

@@ -1,0 +1,113 @@
+.back {
+    background: url(../source/p6.jpg);
+    color: white;
+    height: 92vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    opacity: .88;
+    display: flex;
+    justify-content: center;
+    transition: all 1s ease-in-out;
+    }
+
+
+
+    
+
+.back h1{
+    
+    font-size: 50px;
+    font-family:source code pro;
+    color: black;
+    background-color: azure;
+    opacity: 0.65;
+    letter-spacing: 2.3px;
+    word-spacing: 5px;
+    padding: 10px;
+    position: absolute;
+    top: 35vh;
+    text-align: center;
+    cursor: default;
+}
+
+
+.paras{
+    
+    align-self: center;
+    position: absolute;
+    bottom: 38vh;
+    padding: 3px;
+    padding-top: 10px;
+}
+.paras p{
+    cursor: default;
+    display: flex;
+    font-size: 3ex;
+    justify-content: center;
+    letter-spacing: 2.3px;
+    word-spacing: 3px;
+    text-decoration: underline;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MSsans-serif;
+    
+}
+
+
+
+/* Mobile view{} */
+
+
+@media screen and (max-width: 815px){
+
+ .back h1{
+    
+    font-size: 50px;
+    font-family: Harlow Solid;
+    color: black;
+    background-color: azure;
+    opacity: 0.65;
+    letter-spacing: 2.3px;
+    word-spacing: 5px;
+    padding: 10px;
+    position: absolute;
+    top: 20vh;
+    text-align: center;
+}
+ .paras{
+     
+    align-self: center;
+    position: absolute;
+    bottom: 15vh;
+    padding: 3px;
+    padding-top: 10px;
+        }
+    
+.paras p{
+    text-align: center;
+    padding: 2px 4px;
+    display: flex;
+    font-size: 2.5ex;
+    justify-content: center;
+    letter-spacing: 2.3px;
+    word-spacing: 3px;
+    text-decoration: underline;
+    font-family: 'Courier New', Courier, monospace;
+    
+ }
+}
+@media screen and (max-height: 395px){
+    .back h1{
+        font-size: 24px;
+    }
+ .paras p{
+     font-size: 12px;
+     font-family: 'consolas';
+ }
+ .paras{
+     
+    align-self: center;
+    position: absolute;
+    bottom: 10vh;
+    padding: 3px;
+    padding-top: 10px;
+        }
+ }
